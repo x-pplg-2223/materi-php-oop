@@ -53,13 +53,13 @@ class Animal
 }
 
  $sheep = new Animal("Ayam", "2", "Cold_blooded", "Kukuruyuuuk");
- echo "<strong>Name :</strong>" . $sheep->get_Name();
+ echo "<strong>Name  of animal :</strong>" . $sheep->get_Name();
  echo "<br>";
- echo "<strong>Legs :</strong> " . $sheep->get_Legs();
+ echo "<strong>Legs / sampean :</strong> " . $sheep->get_Legs();
  echo "<br>";
- echo "<strong>Cold Blooded :</strong> " . $sheep->get_Cold_blooded(), "No";
+ echo "<strong>Cold Blooded / berdarah dingin :</strong> " . $sheep->get_Cold_blooded(), "No";
  echo "<br>";
- echo "<strong>Yell :</strong> " . $sheep->get_yell();
+ echo "<strong>Yell / ngagorowok :</strong> " . $sheep->get_yell();
  echo "<br>";
 
 

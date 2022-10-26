@@ -53,7 +53,7 @@ class Animal
 }
 
  $sheep = new Animal("Ayam", "2", "Cold_blooded", "Kukuruyuuuk");
- echo "<strong>Name  of animal :</strong>" . $sheep->get_Name();
+ echo "<strong>Name  of animal / nama binatag :</strong>" . $sheep->get_Name();
  echo "<br>";
  echo "<strong>Legs / sampean :</strong> " . $sheep->get_Legs();
  echo "<br>";
